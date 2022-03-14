@@ -36,26 +36,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin: 0 auto;
     padding: 0 15px;
 }
-@media (max-width: 1564px){
-  .container{
-    max-width: 1366px;
-  }
-}
-@media (max-width: 1200px){
-  .container{
-    max-width: 970px;
-  }
-}
-@media (max-width: 996px){
-  .container{
-    max-width: 750px;
-}
-}
-@media (max-width: 767px){
-  .container{
-    max-width: none;
-}
-}
 .header{
     background-color: white;
     display: flex;
