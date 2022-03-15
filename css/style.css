@@ -262,7 +262,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-bottom: 28px;
   }
   .main__text p{
-    font-family: 'Gotham Pro';
+     
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -2117,7 +2117,7 @@ footer{
     height: 22px;
   }
   .footer__copyright-768 p{
-    font-family: 'Gotham Pro';
+     
     font-size: 14px;
     color: #BDBDBD;
   }
