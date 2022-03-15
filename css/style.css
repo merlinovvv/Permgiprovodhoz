@@ -21,6 +21,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+  font-family: 'Gotham Pro', sans-serif;
 }
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
@@ -121,7 +122,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       text-align: center;
   }
   .header__menu-text p{
-    font-family: 'Gotham Pro', sans-serif;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -136,7 +137,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-right: 12px;
   }
   .mail-title__text{
-    font-family: 'Gotham Pro', sans-serif;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -146,7 +147,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-left: 38px;
   }
   .header__mail-text a{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -155,7 +156,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     transition: 0.3s;
   }
   .header__mail-text a:hover{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -177,7 +178,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-right: 12px;
   }
   .mobile-title__text{
-    font-family: Gotham Pro, sans-serif;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -187,7 +188,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-left: 38px;
   }
   .header__mobile-text a{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -196,7 +197,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     transition: 0.3s;
   }
   .header__mobile-text a:hover{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -212,7 +213,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-right: 12px;
   }
   .location-title__text{
-    font-family: Gotham Pro, sans-serif;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -222,7 +223,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       margin-left: 38px;
   }
   .header__location-text a{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -231,7 +232,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     transition: 0.3s;
   }
   .header__location-text a:hover{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -252,7 +253,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     max-width: 904px;
   }
   .main__text h1{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
@@ -284,7 +285,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     height: 100%;
   }
   .main__form h1{
-    font-family: Gotham Pro;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -301,7 +302,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     height: 48px;
   }
 .main__name::placeholder, .main__number::placeholder{
-  font-family: Gotham Pro, sans-serif;
+   
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -309,7 +310,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   color: #BDBDBD;
 }
 .main__form p{
-  font-family: Gotham Pro;
+   
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -357,7 +358,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   transition: 0.3s;
 }
 .main__btn{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -365,7 +366,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   color: #FFFFFF;
 }
 .main__form a{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -374,14 +375,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .page__title h1{
   text-align: center;
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
 }
 .page__title::first-letter{
   text-align: center;
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -398,7 +399,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .benefit__text{
   max-width: 244px;
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -426,7 +427,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   transform: rotate(45deg);
   width: 18px;
   height: 32px;
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -462,21 +463,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .services__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 40px
 }
 .services__title h2{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
 }
 .services__text{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -517,7 +518,7 @@ ul li{
   margin-bottom: 16px;
 }
 .services__images-text{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -532,7 +533,7 @@ ol > li{
   counter-increment: num;
 }
 li::before{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -558,7 +559,7 @@ ol >li::before{
   margin-bottom: 2px;
 }
 .price__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -579,14 +580,14 @@ ol >li::before{
   padding-right: 40px;
 }
 .touble__text, .touble__value p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
 }
 .touble__text h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -594,7 +595,7 @@ ol >li::before{
   color: #377ED9;
 }
 .touble__value h2{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -648,7 +649,7 @@ ol >li::before{
   transition: 0.3s;
 }
 .price__button{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -657,7 +658,7 @@ ol >li::before{
   transition: 0.3s;
 }
 .price__button:hover{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -676,7 +677,7 @@ ol >li::before{
   max-width: 752px;
 }
 .application__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -685,7 +686,7 @@ ol >li::before{
   margin-bottom: 12px;
 }
 .application__text p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -693,7 +694,7 @@ ol >li::before{
   color: #FFFFFF
 }
 .scheme__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -713,7 +714,7 @@ ol >li::before{
   position: relative;
 }
 .rhomb__title{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -730,7 +731,7 @@ ol >li::before{
   height: 100%;
 }
 .block__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -738,7 +739,7 @@ ol >li::before{
   margin-bottom: 16px;
 }
 .block__text p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -760,7 +761,7 @@ ol >li::before{
   width: 540px;
 }
 .text__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -769,7 +770,7 @@ ol >li::before{
   margin-bottom: 20px;
 }
 .text__item p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -817,7 +818,7 @@ ol >li::before{
   height: 48px;
 }
 .in__name::placeholder, .in__num::placeholder{
-font-family: Gotham Pro, sans-serif;
+ 
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -864,7 +865,7 @@ width: 332px;
 transition: 0.3s;
 }
 .in__btn{
-font-family: Gotham Pro;
+ 
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -872,7 +873,7 @@ line-height: 24px;
 color: #377ED9;
 }
 .in__btn:hover{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -880,7 +881,7 @@ color: #377ED9;
   color: #fff;
 }
 .order__pers p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -889,7 +890,7 @@ color: #377ED9;
   color: rgba(255, 255, 255, 0.7);
 }
 .order__pers a{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -900,7 +901,7 @@ color: #377ED9;
   max-width: 486px;
 }
 .certif__title h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -931,7 +932,7 @@ footer{
   justify-content: space-between;
 }
 .min h1{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -939,7 +940,7 @@ footer{
   color: #FFFFFF
 }
 .services__link a{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -947,7 +948,7 @@ footer{
   color: #FFFFFF;
 }
 .bot a{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -956,7 +957,7 @@ footer{
   transition: 0.3s;
 }
 .bot a:hover{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1004,7 +1005,7 @@ footer{
   margin-left: 28px;
 }
 .footer__copyright p{
-  font-family: Gotham Pro;
+   
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
