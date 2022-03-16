@@ -2266,26 +2266,47 @@ footer{
   .main__btn:hover{
     padding: 10px 44px;
   }
+  .page__white{
+    margin: 0 22px 0 22px;
+    min-height: auto;
+    margin-top: 28px;
+  }
   .page__title h1{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
+    text-align: start;
+    margin-bottom: 25px;
+  }
+  .page__title h1::first-letter{
+    font-size: 24px;
+    color: #F88568;
+  }
+  .benefit{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .benefit__box{
+    position: relative;
+    margin: 0px;
+    left: 13px;
   }
   .benefit__box, .benefit__title{
-    width: 42px;
-    height: 42px;
+    width: 33px;
+    height: 33px;
   }
   .benefit__title h1{
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 2px;
-    padding-left: 16px;
+    padding-left: 10px;
   }
   .benefit__text{
     font-size: 14px;
+    max-width: 100%;
+    margin-left: 37px;
   }
   .page__benefits{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 222px);
-    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 404px);
   }
   .other-width{
     max-width: 768px;
