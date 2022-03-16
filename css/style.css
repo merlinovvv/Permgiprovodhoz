@@ -369,6 +369,9 @@ body{
   line-height: 24px;
   color: #FFFFFF;
 }
+.form__text p{
+  color: #828282;
+}
 .main__form a{
    
   font-style: normal;
@@ -1832,7 +1835,459 @@ footer{
     grid-template-columns: repeat(auto-fit, 222px);
     justify-content: space-between;
   }
-  .width768{
+  .other-width{
+    max-width: 768px;
+  }
+  .page__grey{
+    margin: 0 auto;
+    align-items: center;
+    padding: 36px 30px 44px;
+  }
+  .services__title{
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  .services__title h1, .price__title h1{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .services__text p, .services__text li{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .services__title h2{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .services__images{
+    margin-top: 16px;
+  }
+  .services__img img{
+    width: 168px;
+    height: 168px;
+  }
+  .services__images-box img{
+    width: 464px;
+  }
+  .services__images-text p{
+    font-size: 12px;
+  }
+  .video__items{
+    margin-top: 36px;
+  }
+  .touble__text h1, .touble__nums h2, 
+  .touble__nums p, .touble__text p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .touble__text{
+    max-width: 470px;
+  }
+  .touble__turn{
+    width: 705px;
+    padding-left: 24px;
+  }
+  .touble__nums{
+    padding-right: 24px;
+    width: 150px;
+  }
+  .value__valuta-none{
+    position: relative;
+    display: none;
+  }
+  .value__valuta-yes::after{
+    position: absolute;
+    content: '₽'
+  }
+  .price__application{
+    flex-direction: column;
+    padding: 12px 16px 20px;
+    align-items: flex-start;
+  }
+  .price__application h1{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  .price__application p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .application__item{
+    max-width: 100%;
+  }
+  .application__text{
+    margin-bottom: 16px;
+  }
+  .but__border{
+    width: 210px;
+    height: 40px;
+  }
+  .but__border:hover{
+    width: 210px;
+    height: 40px;
+  }
+  .price__button{
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 31px;
+  }
+  .price__button:hover{
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 31px;
+  }
+  .box__block{
+    width: 348px;
+    height: 252px;
+    padding: 36px 24px 24px;
+  }
+  .box__rhomb{
+    width: 41px;
+    height: 41px;
+    top: 21px;
+    left: 33px
+  }
+  .rhomb__title{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+  }
+  .scheme__grid{
+    grid-template-columns: repeat(auto-fit, minmax(303px, 1fr));
+  }
+  .block__title h1{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .block__text p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .page__order{
+    background-image: url(../img/Component-1.jpg);
+    background-size: auto 413px;
+    padding: 40px 60px;
+    flex-direction: column;
+    height: 409px;
+  }
+  .text__mobile{
+    display: none;
+  }
+  .page__order h1{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .order__text{
+    width: 100%;
+    height: 102px;
+  }
+  .page__order p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .order__line{
+    display: none;
+    max-width: 450px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+  .order__name input, .order__num input{
+    width: 100%;
+    height: 40px;
+    padding: 11px 17px;
+  }
+  .order__form input{
+    width: 100%;
+  }
+  .order__input{
+    width: 100%;
+    height: 40px;
+    margin: 4px 3px;
+  }
+  .in__btn{
+    width: 100%;
+    height: 40px;
+    padding: 10px 36px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .order__input:hover{
+    width: 100%;
+    height: 40px;
+    margin: 4px 3px;
+  }
+  .in__btn:hover{
+    width: 100%;
+    max-width: 624px;
+    height: 40px;
+    padding: 10px 36px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .order__name input::placeholder, .order__num input::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .order__form{
+    width: 624px;
+    height: 195px;
+  }
+  .order__pers{
+    max-width: 624px;
+  }
+  .order__pers p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .order__pers a{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .page__certif h1{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .certif__title{
+    width: 303px;
+  }
+  .img__certificate img{
+    width: 174px;
+    height: 224px;
+  }
+  .certif__img{
+    margin-top: 20px;
+  }
+  footer{
+    margin-top: 0px;
+  }
+  .footer{
+    padding: 24px 16px;
+    height: 146px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+  }
+  .footer h1{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer__services, .footer__about{
+    display: none;
+  }
+  .footer__contact, .footer__social{
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  .footer__social-link{
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+  }
+  .footer__location{
+    margin-right: 90px;
+  }
+  .footer__services a, .footer__about a{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .footer__contact a, .footer__social a{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer__contact a:hover, .footer__social a:hover{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer__copyright{
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .social__img{
+    margin-left: 0px;
+  }
+  .social__img img{
+    width: 28px;
+    height: 28px;
+  }
+  .footer__copyright-768{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 648px;
+    height: 22px;
+  }
+  .footer__copyright-768 p{
+     
+    font-size: 14px;
+    color: #BDBDBD;
+  }
+}
+
+@media (max-width: 480px){
+  .container{
+    max-width: 448px;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+  .page__price, .page__scheme, .page__order, .page__certif{
+    margin-top: 44px;
+  }
+  .header__menu{
+    width: 36px;
+    height: 36px;
+    float: left;
+    background-color: #fff;
+  }
+  .menu-btn{
+    background-color: #fff;
+  }
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    background-color: #377ED9;
+  }
+  .header__menu-text{
+    display: none;
+  }
+  .header__menu-text p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 11px;
+  }
+  .menu-btn {
+    width: 45px;
+    height: 44px;
+  }
+  .header__img{
+    width: 23px;
+    height: 23px;
+  }
+  .header__mail, .header__location{
+    display: none;
+  }
+  .mail-title__text p, .mobile-title__text p, .location-title__text p{
+    font-size: 16px;
+  }
+  .mobile-title__img, .mail-title__img, .location-title__img{
+    margin-right: 8.88px;
+  }
+  .mobile-title__text, .header__mobile-text{
+    display: none;
+  }
+
+  .header__mail-text, .header__location-text, .header__mobile-text{
+    margin-left: 30px;
+  }
+  .header__mobile-text a{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .header__logo{
+    width: 141px;
+    height: 87px;
+    position: relative;
+    align-items: center;
+    left: 0px;
+  }
+  .logo__logo{
+    position: relative;
+    width: 116px;
+    height: 56px;
+    left: -25px;
+    bottom: 20px;
+  }
+  .header{
+    height: 64px;
+  }
+  .main{
+    width: 480px;
+    height: 548px;
+    background-image: url(../img/main-body-bg.jpg);
+    background-size: auto 548px;
+  }
+  .main__page{
+    flex-direction: column;
+    padding-top: 52px;
+  }
+  .main__text{
+    max-width: 404px;
+  }
+  .main__text h1{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .main__text p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__form{
+    width: 100%;
+    max-width: 404px;
+    max-height: 285px;
+    padding: 14px 44px 20px;
+    margin-top: 40px;
+  }
+  .form__title h1{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__name, .main__number{
+    padding: 11px 17px;
+    width: 100%;
+    max-width: 316px;
+    height: 40px;
+  }
+  .main__name::placeholder, .main__number::placeholder{
+    font-size: 14px;
+  }
+  .form__text p, .form__text a{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .main__input, .main__btn, .main__btn:hover, .main__input:hover{
+    max-width: 316px;
+    width: 100%;
+    height: 40px;
+    transition: 0.3s;
+  }
+  .main__btn{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 44px;
+  }
+  .main__btn:hover{
+    padding: 10px 44px;
+  }
+  .page__title h1{
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .benefit__box, .benefit__title{
+    width: 42px;
+    height: 42px;
+  }
+  .benefit__title h1{
+    font-size: 18px;
+    padding-top: 2px;
+    padding-left: 16px;
+  }
+  .benefit__text{
+    font-size: 14px;
+  }
+  .page__benefits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 222px);
+    justify-content: space-between;
+  }
+  .other-width{
     max-width: 768px;
   }
   .page__grey{
