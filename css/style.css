@@ -246,7 +246,8 @@ body{
   }
   .main{
     background: url(../img/main-body-bg.jpg);
-    height: 564px;
+    /* max-width: 100%; */
+    max-height: 564px;
   }
   .main__page{
     display: flex;
@@ -1065,8 +1066,8 @@ footer{
     height: 76px;
   }
   .main{
-    width: 1280px;
-    height: 456px;
+    max-width: 1280px;
+    max-height: 456px;
     background-image: url(../img/main-body-bg.jpg);
     background-size: auto 456px;
   }
@@ -1393,8 +1394,8 @@ footer{
     height: 72px;
   }
   .main{
-    width: 1024px;
-    height: 456px;
+    max-width: 1024px;
+    max-height: 456px;
     background-image: url(../img/main-body-bg.jpg);
     background-size: auto 456px;
   }
@@ -1755,8 +1756,8 @@ footer{
     height: 72px;
   }
   .main{
-    width: 768px;
-    height: 650px;
+    max-width: 768px;
+    max-height: 650px;
     background-image: url(../img/main-body-bg.jpg);
     background-size: auto 650px;
   }
@@ -2140,8 +2141,8 @@ footer{
     margin-top: 44px;
   }
   .header__menu{
-    width: 36px;
-    height: 36px;
+    max-width: 36px;
+    max-height: 36px;
     float: left;
     background-color: #fff;
   }
@@ -2162,8 +2163,8 @@ footer{
     margin-top: 11px;
   }
   .menu-btn {
-    width: 45px;
-    height: 44px;
+    max-width: 45px;
+    max-height: 44px;
   }
   .header__img{
     width: 23px;
@@ -2207,8 +2208,8 @@ footer{
     height: 64px;
   }
   .main{
-    width: 480px;
-    height: 548px;
+    max-width: 480px;
+    max-height: 548px;
     background-image: url(../img/main-body-bg.jpg);
     background-size: auto 548px;
   }
@@ -2229,7 +2230,6 @@ footer{
     line-height: 24px;
   }
   .main__form{
-    width: 100%;
     max-width: 404px;
     max-height: 285px;
     padding: 14px 44px 20px;
@@ -2241,7 +2241,6 @@ footer{
   }
   .main__name, .main__number{
     padding: 11px 17px;
-    width: 100%;
     max-width: 316px;
     height: 40px;
   }
@@ -2254,7 +2253,6 @@ footer{
   }
   .main__input, .main__btn, .main__btn:hover, .main__input:hover{
     max-width: 316px;
-    width: 100%;
     height: 40px;
     transition: 0.3s;
   }
