@@ -2204,6 +2204,16 @@ footer{
     left: -25px;
     bottom: 20px;
   }
+  header{
+    z-index: 1000;
+    width: 100%;
+    /* margin-top: 60px; */
+  }
+  .header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
   .header{
     height: 64px;
   }
