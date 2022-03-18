@@ -2352,8 +2352,18 @@ footer{
     max-width: 240px;
     max-height: 240px;
   }
+  .services__white-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
   .services__images-box img{
-    max-width: 404px;
+    width: 100%;
   }
   .services__images-text p{
     font-size: 12px;
