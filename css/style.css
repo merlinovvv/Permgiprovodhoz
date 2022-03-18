@@ -1072,7 +1072,7 @@ footer{
     background-size: auto 456px;
   }
   .main__text{
-    width: 656px;
+    max-width: 656px;
   }
   .main__text h1{
     font-size: 32px;
@@ -1400,7 +1400,7 @@ footer{
     background-size: auto 456px;
   }
   .main__text{
-    width: 656px;
+    max-width: 656px;
   }
   .main__text h1{
     font-size: 24px;
@@ -1766,7 +1766,7 @@ footer{
     padding-top: 96px;
   }
   .main__text{
-    width: 708px;
+    max-width: 708px;
   }
   .main__text h1{
     font-size: 24px;
@@ -2315,7 +2315,7 @@ footer{
   }
   .page__benefits{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 404px);
+    grid-template-columns: repeat(auto-fit, 100%);
   }
   .other-width{
     max-width: 768px;
