@@ -1152,8 +1152,8 @@ footer{
     line-height: 24px;
   }
   .services__img img{
-    width: 224px;
-    height: 224px;
+    max-width: 224px;
+    max-height: 224px;
   }
   .touble__text h1, .touble__nums h2, .touble__nums p, .touble__text p{
     font-size: 14px;
@@ -1483,8 +1483,8 @@ footer{
     line-height: 24px;
   }
   .services__img img{
-    width: 174px;
-    height: 174px;
+    max-width: 174px;
+    max-height: 174px;
   }
   .touble__text h1, .touble__nums h2, .touble__nums p, .touble__text p{
     font-size: 14px;
@@ -1864,8 +1864,8 @@ footer{
     margin-top: 16px;
   }
   .services__img img{
-    width: 168px;
-    height: 168px;
+    max-width: 168px;
+    max-height: 168px;
   }
   .services__images-box img{
     width: 464px;
@@ -2332,10 +2332,14 @@ footer{
   }
   .services__images{
     margin-top: 16px;
+    overflow-x: auto;
+  }
+  .services__img{
+    margin-right: 12px;
   }
   .services__img img{
-    width: 168px;
-    height: 168px;
+    max-width: 240px;
+    max-height: 240px;
   }
   .services__images-box img{
     width: 464px;
