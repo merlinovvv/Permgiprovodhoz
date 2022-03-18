@@ -1063,7 +1063,7 @@ footer{
     height: 84px;
   }
   .header{
-    height: 76px;
+    max-height: 76px;
   }
   .main{
     max-width: 1280px;
@@ -1391,7 +1391,7 @@ footer{
     left: -16px;
   }
   .header{
-    height: 72px;
+    max-height: 72px;
   }
   .main{
     max-width: 1024px;
@@ -1753,7 +1753,7 @@ footer{
     left: -16px;
   }
   .header{
-    height: 72px;
+    max-height: 72px;
   }
   .main{
     max-width: 768px;
@@ -2216,7 +2216,7 @@ footer{
     top: 0;
   }
   .header{
-    height: 64px;
+    max-height: 64px;
   }
   .main{
     max-width: 480px;
