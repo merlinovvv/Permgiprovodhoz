@@ -1023,6 +1023,7 @@ footer{
 .footer__copyright-768{
   display: none;
 }
+
 @media (max-width: 1280px){
   .container{
     max-width: 1135px;
@@ -2683,4 +2684,40 @@ footer{
     font-size: 14px;
     color: #BDBDBD;
   }
+}
+
+@media (max-width: 320px){
+  .container{
+    max-width: 301px;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+  .header{
+    max-height: 64px;
+  }
+  .main{
+    max-width: 320px;
+    max-height: 579px;
+    background-image: url(../img/main-body-bg.jpg);
+    background-size: auto 579px;
+  }
+  .main__page {
+    flex-direction: column;
+    padding-top: 32px;
+  }
+  .main__form {
+    max-width: 288px;
+    max-height: 301px;
+    padding: 14px 44px 20px;
+    margin-top: 20px;
+  }
+  .page__price, .page__scheme, .page__order, .page__certif{
+    margin-top: 36px;
+  }
+  .page__grey{
+    padding: 36px 16px;
+  }
+  .other-width {
+    max-width: 320px;
+}
 }
