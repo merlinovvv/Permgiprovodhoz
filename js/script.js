@@ -28,15 +28,20 @@ $(function() {
       }
     });
    });
+   
 $(function(){
     const mediaQuery = window.matchMedia('(max-width: 480px)')
    let elem = $('.page__scheme');
    let elem2 = $('.scheme__grid');
    let elem3 = $('.scheme__box');
+   let nav1 = $('.scheme__prev');
+   let nav2 = $('.scheme__next');
     if (mediaQuery.matches) {
         elem.addClass('swiper-container');
         elem2.addClass('swiper-wrapper');
         elem3.addClass('swiper-slide');
+        nav1.addClass('swiper-button-prev');
+        nav2.addClass('swiper-button-next');
         new Swiper('.page__scheme',{
             navigation:{
                 nextEl:'.swiper-button-next',
@@ -51,5 +56,7 @@ $(function(){
         elem.removeClass('swiper-container');
         elem2.removeClass('swiper-wrapper');
         elem3.removeClass('swiper-slide');
+        nav1.removeClass('swiper-button-prev');
+        nav2.removeClass('swiper-button-next');
     }
 })
