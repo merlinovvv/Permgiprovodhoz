@@ -1299,7 +1299,7 @@ footer{
     line-height: 28px;
   }
   .certif__title{
-    width: 364px;
+    max-width: 364px;
   }
   .img__certificate img{
     width: 224px;
@@ -1657,7 +1657,7 @@ footer{
     line-height: 24px;
   }
   .certif__title{
-    width: 303px;
+    max-width: 303px;
   }
   .img__certificate img{
     width: 174px;
@@ -2057,7 +2057,7 @@ footer{
     line-height: 24px;
   }
   .certif__title{
-    width: 303px;
+    max-width: 303px;
   }
   .img__certificate img{
     width: 174px;
@@ -2594,7 +2594,7 @@ footer{
     line-height: 24px;
   }
   .certif__title{
-    width: 303px;
+    max-width: 303px;
   }
   .img__certificate img{
     width: 174px;
