@@ -578,7 +578,7 @@ ol >li::before{
   padding: 16px 0 16px 0;
 }
 .touble__turn{
-  width: 1fr;
+  max-width: 1fr;
   padding-left: 40px;
   max-width: 884px;
 }
@@ -1160,7 +1160,7 @@ footer{
     line-height: 22px;
   }
   .touble__turn{
-    width: 705px;
+    max-width: 705px;
     padding-left: 24px;
   }
   .touble__nums{
@@ -1180,30 +1180,30 @@ footer{
     max-width: 653px;
   }
   .but__border{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
   }
   .but__border:hover{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
   }
   .price__button{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .price__button:hover{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .box__block{
-    width: 304px;
-    height: 296px;
+    max-width: 304px;
+    max-height: 296px;
     padding: 36px 24px 24px;
   }
   .box__rhomb{
@@ -1491,7 +1491,7 @@ footer{
     line-height: 22px;
   }
   .touble__turn{
-    width: 705px;
+    max-width: 705px;
     padding-left: 24px;
   }
   .touble__nums{
@@ -1521,30 +1521,30 @@ footer{
     max-width: 454px;
   }
   .but__border{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
   }
   .but__border:hover{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
   }
   .price__button{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .price__button:hover{
-    width: 183px;
+    max-width: 183px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .box__block{
-    width: 362px;
-    height: 252px;
+    max-width: 362px;
+    max-height: 252px;
     padding: 36px 24px 24px;
   }
   .box__rhomb{
@@ -1885,7 +1885,7 @@ footer{
     max-width: 470px;
   }
   .touble__turn{
-    width: 705px;
+    max-width: 705px;
     padding-left: 24px;
   }
   .touble__nums{
@@ -1921,30 +1921,30 @@ footer{
     margin-bottom: 16px;
   }
   .but__border{
-    width: 210px;
+    max-width: 210px;
     height: 40px;
   }
   .but__border:hover{
-    width: 210px;
+    max-width: 210px;
     height: 40px;
   }
   .price__button{
-    width: 210px;
+    max-width: 210px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .price__button:hover{
-    width: 210px;
+    max-width: 210px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .box__block{
-    width: 348px;
-    height: 252px;
+    max-width: 348px;
+    max-height: 252px;
     padding: 36px 24px 24px;
   }
   .box__rhomb{
@@ -2293,6 +2293,8 @@ footer{
   .benefit{
     display: flex;
     margin-bottom: 30px;
+    align-items: center;
+    height: 48px;
   }
   .benefit__box{
     position: relative;
@@ -2312,6 +2314,7 @@ footer{
     font-size: 14px;
     max-width: 100%;
     margin-left: 37px;
+    text-align: start;
   }
   .page__benefits{
     display: grid;
@@ -2371,6 +2374,9 @@ footer{
   .video__items{
     margin-top: 36px;
   }
+  .first-column{
+    display: none;
+  }
   .touble__text h1, .touble__nums h2, 
   .touble__nums p, .touble__text p{
     font-size: 14px;
@@ -2380,12 +2386,20 @@ footer{
     max-width: 470px;
   }
   .touble__turn{
-    width: 705px;
+    max-width: 372px;
     padding-left: 24px;
   }
   .touble__nums{
     padding-right: 24px;
     width: 150px;
+    margin-left: 24px;
+    margin-top: 12px;
+  }
+  .touble__value p{
+    font-weight: bold;
+  }
+  .touble__column{
+    flex-direction: column;
   }
   .value__valuta-none{
     position: relative;
@@ -2416,31 +2430,51 @@ footer{
     margin-bottom: 16px;
   }
   .but__border{
-    width: 210px;
+    max-width: 388px;
     height: 40px;
   }
   .but__border:hover{
-    width: 210px;
+    max-width: 388px;
     height: 40px;
   }
   .price__button{
-    width: 210px;
+    max-width: 388px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .price__button:hover{
-    width: 210px;
+    max-width: 388px;
     height: 40px;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 31px;
   }
   .box__block{
-    width: 348px;
-    height: 252px;
+    max-width: 420px;
+    min-height: 300px;
     padding: 36px 24px 24px;
+    margin: 0;
+  }
+  .page__scheme{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .page__scheme .swiper-button-next, 
+  .page__scheme .swiper-button-prev{
+    top:90%;
+    color:#377ED9;
+  }
+  .page__scheme .swiper-button-next::after, 
+  .page__scheme .swiper-button-prev::after{
+    font-size: 20px;
+    
   }
   .box__rhomb{
     width: 41px;
@@ -2454,8 +2488,16 @@ footer{
     padding-bottom: 11px;
     padding-right: 10px;
   }
+  .scheme__box{
+    align-items: center;
+  }
   .scheme__grid{
-    grid-template-columns: repeat(auto-fit, minmax(303px, 1fr));
+    display: block;
+    /* grid-template-columns: repeat(auto-fit, minmax(404px, 1fr)); */
+    align-content: center;
+    max-width: 404px;
+    align-items: center;
+    align-self:center;
   }
   .block__title h1{
     font-size: 16px;
