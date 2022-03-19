@@ -499,7 +499,7 @@ body{
 ul li{
   line-height: 1.5;
   background-size: 6px 6px;
-  list-style-image: url(./img/list-image.svg);
+  list-style-image: url(../img/list-image.svg);
   padding-left: 19px;
   margin-left: 20px;
 }
