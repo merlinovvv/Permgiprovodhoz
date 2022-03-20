@@ -33,6 +33,10 @@ a:hover{text-decoration: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
+.img__certificate img{
+  max-width: 100%;
+  max-height: 100%;
+}
 body{
   font-family: 'Gotham Pro', sans-serif;
 }
@@ -281,6 +285,7 @@ body{
     max-width: 456px;
     margin-top: 80px;
     height: 400px;
+    margin-bottom: 80px;
   }
   .main__send{
     display: flex;
@@ -381,6 +386,10 @@ body{
   line-height: 24px;
   color: #377ED9;
 }
+.page__title{
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
 .page__title h1{
   text-align: center;
    
@@ -390,11 +399,13 @@ body{
 }
 .page__title::first-letter{
   text-align: center;
-   
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
   color: #F88568;
+}
+.benefit{
+  margin-bottom: 30px;
 }
 .page__benefits{
   display: grid;
@@ -581,11 +592,13 @@ ol >li::before{
   max-width: 1fr;
   padding-left: 40px;
   max-width: 884px;
+  align-items: flex-end;
 }
 .touble__nums{
   max-width: 224px;
   width: 100%;
   padding-right: 40px;
+  justify-content: flex-end;
 }
 .touble__text, .touble__value p{
    
@@ -734,8 +747,8 @@ ol >li::before{
 .box__block{
   background-color: #fff;
   padding: 48px 36px 32px 36px;
-  max-width: 420px;
-  max-height: 292px;
+  max-width: 390px;
+  max-height: 335px;
   height: 100%;
 }
 .block__title h1{
@@ -758,12 +771,16 @@ ol >li::before{
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   align-content: space-evenly;
 }
+.scheme__box{
+  margin-bottom: 45px;
+}
 .page__order{
   background: url(../img/Component-1.jpg);
   padding: 68px 100px 100px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 .order__text{
   width: 540px;
@@ -838,14 +855,12 @@ background: none;
 border: 1px solid #fff;
 box-sizing: border-box;
 margin: 4px; 
-width: 100%;
-width: 332px;
+max-width: 332px;
 transition: 0.3s;
 }
 .order__input:hover{
 border: 1px solid #F88568;
 box-sizing: border-box;
-width: 100%;
 max-width: 332px;
 transition: 0.3s;
 }
@@ -859,7 +874,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 44px;
-width: 332px;
+max-width: 332px;
 transition: 0.3s;
 }
 .in__btn:hover{
@@ -868,8 +883,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 44px;
-width: 100%;
-width: 332px;
+max-width: 332px;
 transition: 0.3s;
 }
 .in__btn{
@@ -1026,6 +1040,18 @@ footer{
 .footer__contact .footer__mail{
   display: none;
 }
+.services__img img{
+  max-width: 310px;
+}
+@media(max-width: 1532px){
+  .services__img img{
+    width: 100%;
+    max-width: 288px;
+  }
+  .services__img{
+    margin-right: 15px;
+  }
+}
 @media (max-width: 1280px){
   .footer__contact .footer__mail{
     display: none;
@@ -1171,7 +1197,7 @@ footer{
   }
   .touble__nums{
     padding-right: 24px;
-    width: 150px;
+    max-width: 150px;
   }
   .price__application{
     padding: 24px 40px 24px 24px;
@@ -1238,8 +1264,8 @@ footer{
   }
   .page__order{
     background-image: url(../img/Component-1.jpg);
-    background-size: auto 380px;
     padding: 60px 60px 80px;
+    height: 100%;
   }
   .page__order h1{
     font-size: 24px;
@@ -1260,25 +1286,25 @@ footer{
     padding: 11px 17px;
   }
   .order__input{
-    width: 270px;
-    height: 40px;
+    max-width: 270px;
+    max-height: 40px;
     margin: 4px 3px;
   }
   .in__btn{
-    width: 269px;
-    height: 40px;
+    max-width: 270px;
+    max-height: 40px;
     padding: 10px 36px;
     font-size: 14px;
     line-height: 20px;
   }
   .order__input:hover{
-    width: 270px;
-    height: 40px;
+    max-width: 270px;
+    max-height: 40px;
     margin: 4px 3px;
   }
   .in__btn:hover{
-    width: 269px;
-    height: 40px;
+    max-width: 269px;
+    max-height: 40px;
     padding: 10px 36px;
     font-size: 14px;
     line-height: 20px;
@@ -1288,8 +1314,8 @@ footer{
     line-height: 18px;
   }
   .order__form{
-    width: 273px;
-    height: 223px;
+    max-width: 273px;
+    max-height: 223px;
   }
   .order__pers p{
     font-size: 12px;
@@ -1307,8 +1333,8 @@ footer{
     max-width: 364px;
   }
   .img__certificate img{
-    width: 224px;
-    height: 286px;
+    width: 100%;
+    height: 100%;
   }
   .certif__img{
     margin-top: 20px;
@@ -1500,12 +1526,12 @@ footer{
     line-height: 22px;
   }
   .touble__turn{
-    max-width: 705px;
+    max-width: 506px;
     padding-left: 24px;
   }
   .touble__nums{
     padding-right: 24px;
-    width: 150px;
+    max-width: 150px;
   }
   .value__valuta-none{
     position: relative;
@@ -1553,7 +1579,7 @@ footer{
   }
   .box__block{
     max-width: 362px;
-    max-height: 252px;
+    max-height: 300px;
     padding: 36px 24px 24px;
   }
   .box__rhomb{
@@ -1582,10 +1608,9 @@ footer{
   }
   .page__order{
     background-image: url(../img/Component-1.jpg);
-    background-size: auto 413px;
     padding: 40px 60px;
     flex-direction: column;
-    height: 409px;
+    height: 100%;
   }
   .text__mobile{
     display: none;
@@ -1597,6 +1622,7 @@ footer{
   .order__text{
     width: 100%;
     height: 102px;
+    margin-bottom: 24px;
   }
   .page__order p{
     font-size: 14px;
@@ -1617,11 +1643,13 @@ footer{
     width: 100%;
   }
   .order__input{
+    max-width: 621px;
     width: 100%;
     height: 40px;
     margin: 4px 3px;
   }
   .in__btn{
+    max-width: 621px;
     width: 100%;
     height: 40px;
     padding: 10px 36px;
@@ -1629,13 +1657,14 @@ footer{
     line-height: 20px;
   }
   .order__input:hover{
+    max-width: 621px;
     width: 100%;
     height: 40px;
     margin: 4px 3px;
   }
   .in__btn:hover{
+    max-width: 621px;
     width: 100%;
-    max-width: 624px;
     height: 40px;
     padding: 10px 36px;
     font-size: 14px;
@@ -1646,8 +1675,8 @@ footer{
     line-height: 18px;
   }
   .order__form{
-    width: 624px;
-    height: 195px;
+    max-width: 625px;
+    max-height: 195px;
   }
   .order__pers{
     max-width: 624px;
@@ -1668,8 +1697,8 @@ footer{
     max-width: 303px;
   }
   .img__certificate img{
-    width: 174px;
-    height: 224px;
+    width: 100%;
+    height: 100%;
   }
   .certif__img{
     margin-top: 20px;
@@ -1880,7 +1909,7 @@ footer{
     max-height: 168px;
   }
   .services__images-box img{
-    max-width: 464px;
+    max-width: 100%;
   }
   .services__images-text p{
     font-size: 12px;
@@ -1897,12 +1926,12 @@ footer{
     max-width: 470px;
   }
   .touble__turn{
-    max-width: 705px;
+    max-width: 470px;
     padding-left: 24px;
   }
   .touble__nums{
     padding-right: 24px;
-    width: 150px;
+    max-width: 150px;
   }
   .value__valuta-none{
     position: relative;
@@ -1985,10 +2014,10 @@ footer{
   }
   .page__order{
     background-image: url(../img/Component-1.jpg);
-    background-size: auto 413px;
+    background-size: auto 450px;
     padding: 40px 60px;
     flex-direction: column;
-    height: 409px;
+    height: 100%;
   }
   .text__mobile{
     display: none;
@@ -1999,7 +2028,8 @@ footer{
   }
   .order__text{
     width: 100%;
-    height: 102px;
+    height: 100%;
+
   }
   .page__order p{
     font-size: 14px;
@@ -2049,8 +2079,8 @@ footer{
     line-height: 18px;
   }
   .order__form{
-    width: 624px;
-    height: 195px;
+    max-width: 588px;
+    max-height: 187px;
   }
   .order__pers{
     max-width: 624px;
@@ -2071,8 +2101,8 @@ footer{
     max-width: 303px;
   }
   .img__certificate img{
-    width: 174px;
-    height: 224px;
+    width: 100%;
+    height: 100%;
   }
   .certif__img{
     margin-top: 20px;
@@ -2406,7 +2436,7 @@ footer{
   }
   .touble__nums{
     padding-right: 24px;
-    width: 150px;
+    max-width: 150px;
     margin-left: 24px;
     margin-top: 12px;
   }
@@ -2415,6 +2445,7 @@ footer{
   }
   .touble__column{
     flex-direction: column;
+    padding-right: 24px;
   }
   .value__valuta-none{
     position: relative;
@@ -2483,13 +2514,22 @@ footer{
   }
   .page__scheme .swiper-button-next, 
   .page__scheme .swiper-button-prev{
-    top:90%;
-    color:#377ED9;
+    margin-top: 170px;
+    color: #377ED9;
+    background-color: white;
+    width: 36px;
+    height: 36px;
   }
   .page__scheme .swiper-button-next::after, 
   .page__scheme .swiper-button-prev::after{
     font-size: 20px;
     
+  }
+  .page__scheme .swiper-button-next, .swiper-rtl .page__scheme .swiper-button-prev{
+    right: 0px
+  }
+  .page__scheme .swiper-button-prev, .swiper-rtl .page__scheme .swiper-button-next{
+    left: 0px
   }
   .box__rhomb{
     width: 41px;
@@ -2528,7 +2568,7 @@ footer{
     background-size: auto 413px;
     padding: 20px 16px;
     flex-direction: column;
-    max-height: 413px;
+    height: 100%;
   }
   .text__mobile{
     display: none;
@@ -2539,7 +2579,7 @@ footer{
   }
   .order__text{
     width: 100%;
-    height: 102px;
+    height: 100%;
   }
   .page__order p{
     font-size: 14px;
@@ -2611,8 +2651,8 @@ footer{
     max-width: 303px;
   }
   .img__certificate img{
-    width: 174px;
-    height: 224px;
+    width: 100%;
+    height: 100%;
   }
   .certif__img{
     margin-top: 20px;
@@ -2698,6 +2738,9 @@ footer{
     font-size: 14px;
     color: #BDBDBD;
   }
+  .box__block{
+    max-height: 500px;
+  }
 }
 
 @media (max-width: 320px){
@@ -2740,6 +2783,7 @@ footer{
   .footer__location {
     margin-right: 0px;
   }
+  
 }
 @media(max-width: 338px){
   .footer__location {
